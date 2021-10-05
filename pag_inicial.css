@@ -1,0 +1,35 @@
+	body{
+		font-family: sans-serif;
+		margin: 0;
+	}
+
+	#fundo{
+		width: 100vw;
+		height: 100vh;
+		background-image: url(./Background/pag_inicial.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	#titulo{
+		font-size: 24px;
+		color: black;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.button{
+		position: absolute;
+		width: 227px;
+		height: 106px;
+
+		background: #03A03E;
+		border-radius: 50px;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 48px;
+		line-height: 65px;
+		text-align: center;
+
+		color: #FFFFFF;
+	}
