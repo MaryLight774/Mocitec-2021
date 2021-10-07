@@ -33,7 +33,7 @@
 		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 	}
 
-	/*.button{
+	.button{
 		position: absolute;
 		width: 227px;
 		height: 106px;
@@ -45,6 +45,8 @@
 		font-size: 48px;
 		line-height: 65px;
 		text-align: center;
+		vertical-align: middle;
+
 
 		color: #FFFFFF;
-	}*/
+	}

@@ -1,5 +1,5 @@
 	body{
-		font-family: sans-serif;
+		font-family: open sans;
 		margin: 0;
 	}
 
@@ -9,4 +9,25 @@
 		height: 100vh;
 		background-size: cover;
 		background-attachment: fixed;
+	}
+
+	#titulo{
+		
+      background: linear-gradient(180deg, rgba(255, 92, 0, 0.73) 0%, rgba(255, 92, 0, 0) 51.04%);
+      color:#fff;
+      text-align: center;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      font-size: 36px;
+	
+	}
+
+	.ensino_fundamental{
+		color: white;
+		text-decoration: none;
+	}
+
+	#yellow_brain{
+		background-image: url(./Icons/yellowbrain.png);
 	}
