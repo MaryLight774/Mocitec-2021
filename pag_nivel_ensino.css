@@ -25,40 +25,39 @@
 	}
 
 	h1{
-		margin: 0px;
+		margin-bottom: 0px;
+		margin-top: 15px;
 	}
 
 	#ensino_fundamental{
+		position: relative;
 		display: inline-block;
 		width: 25%;
-		margin-left: 0px;
+		padding: 10px;
+		margin-top: 50px;
+		color: white;
 	}
-
-	/*#yellow_brain{
-		padding: 5px;
-		width: 25%;
-	}*/
 
 	#ensino_medio{
+		position: relative;
 		display: inline-block;
 		width: 250px;
-	}
-
-	#blue_brain{
-		padding: 5px;
-		width: 25%;
+		margin-top: 50px;
+		padding: 10px;
 	}
 
 	#ensino_integrado{
 		display: inline-block;
 		width: 25%;
 		padding: 10px;
+		margin-top: 50px;
 	}
 
 	#ensino_superior{
 		display: inline-block;
 		width: 25%;
 		padding: 10px;
+		margin-top: 50px;
 	}
 
 	img{
