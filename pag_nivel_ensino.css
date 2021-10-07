@@ -1,6 +1,7 @@
 	body{
 		font-family: open sans;
 		margin: 0;
+
 	}
 
 	#fundo{
@@ -11,7 +12,7 @@
 		background-attachment: fixed;
 	}
 
-	/*#titulo{
+	#titulo{
 		
       background: linear-gradient(180deg, rgba(255, 92, 0, 0.73) 0%, rgba(255, 92, 0, 0) 51.04%);
       color:#fff;
@@ -21,13 +22,45 @@
       height: 100%;
       font-size: 36px;
 	
-	}*/
-
-	.ensino_fundamental{
-		color: white;
-		text-decoration: none;
 	}
 
-	#yellow_brain{
-		background-image: url(./Icons/yellowbrain.png);
+	h1{
+		margin: 0px;
+	}
+
+	#ensino_fundamental{
+		display: inline-block;
+		width: 25%;
+		margin-left: 0px;
+	}
+
+	/*#yellow_brain{
+		padding: 5px;
+		width: 25%;
+	}*/
+
+	#ensino_medio{
+		display: inline-block;
+		width: 250px;
+	}
+
+	#blue_brain{
+		padding: 5px;
+		width: 25%;
+	}
+
+	#ensino_integrado{
+		display: inline-block;
+		width: 25%;
+		padding: 10px;
+	}
+
+	#ensino_superior{
+		display: inline-block;
+		width: 25%;
+		padding: 10px;
+	}
+
+	img{
+		width: 275px;
 	}
