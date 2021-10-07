@@ -43,9 +43,12 @@
 		font-style: normal;
 		font-weight: bold;
 		font-size: 48px;
-		line-height: 65px;
+		line-height: 90px;
 		text-align: center;
-		vertical-align: middle;
+		
+		
+		margin-top: 550px;
+		margin-left: 175px;
 
 
 		color: #FFFFFF;
