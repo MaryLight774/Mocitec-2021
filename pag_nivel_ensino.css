@@ -63,3 +63,19 @@
 	img{
 		width: 275px;
 	}
+
+	.button{
+		position: absolute;
+		width: 227px;
+		height: auto;
+		background: #03A03E;
+		border-radius: 50px;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 48px;
+		line-height: 90px;
+		text-align: center;
+		margin-top: 50px;
+		color: #FFFFFF;
+		margin-left: 75px;
+	}
