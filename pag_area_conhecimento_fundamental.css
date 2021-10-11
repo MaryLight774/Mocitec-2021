@@ -20,7 +20,6 @@
       width: 100%;
       height: 100%;
       font-size: 36px;
-	
 	}
 
 	a{
@@ -32,7 +31,7 @@
 		color: lightblue;
 	}
 
-	/*.button{
+	.button{
 		position: absolute;
 		width: 227px;
 		height: auto;
@@ -44,5 +43,31 @@
 		line-height: 90px;
 		text-align: center;
 		color: #FFFFFF;
-		margin-left: 75px;
-	}*/
+		float: left;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+	.matematica{
+		position: absolute;
+		width: 500px;
+		font-size: 32px;
+		float: left;
+		padding-left: 10%;
+	}
+
+	.humanas{
+		display: inline-block;
+		position: absolute;
+		width: 650px;
+		font-size: 32px;
+	}
+
+	#preenchimento{
+		width: 100%;
+		height: 30%;
+	}
+
+	h1{
+		margin-bottom: 5px ;
+	}
