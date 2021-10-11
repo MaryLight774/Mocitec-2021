@@ -1,0 +1,12 @@
+	body{
+		font-family: open sans;
+		margin: 0;
+	}
+
+	#fundo{
+		background-image: url(./Background/pag_medio_integrado.png);
+		width: 100vw;
+		height: 100vh;
+		background-size: cover;
+		background-attachment: fixed;
+	}
