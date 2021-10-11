@@ -10,3 +10,71 @@
 		background-size: cover;
 		background-attachment: fixed;
 	}
+
+	#titulo{
+		
+      background: linear-gradient(180deg, rgba(255, 92, 0, 0.73) 0%, rgba(255, 92, 0, 0) 51.04%);
+      color:#fff;
+      text-align: center;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      font-size: 36px;
+	}
+
+	a{
+		text-decoration: none;
+		color: white;
+	}
+
+	a:hover{
+		color: lightblue;
+	}
+
+	.button{
+		position: absolute;
+		width: 227px;
+		height: auto;
+		background: #03A03E;
+		border-radius: 50px;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 48px;
+		line-height: 90px;
+		text-align: center;
+		color: #FFFFFF;
+		float: left;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+
+	.matematica{
+		position: absolute;
+		width: 500px;
+		font-size: 32px;
+		float: left;
+		padding-left: 10%;
+	}
+
+	.humanas{
+		display: inline-block;
+		position: absolute;
+		width: 650px;
+		font-size: 32px;
+	}
+
+	#categoria{
+		width: 100%;
+		height: 30%;
+		font-size: 30px;
+		text-align: right;
+		font-weight: bold;
+	}
+
+	h1{
+		margin-bottom: 5px ;
+	}
+
+	#categoria img{
+		margin-right: 15px;
+	}
