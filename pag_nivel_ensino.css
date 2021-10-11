@@ -30,32 +30,29 @@
 	}
 
 	#ensino_fundamental{
-		position: relative;
 		display: inline-block;
-		width: 25%;
+		width: 275px;
 		padding: 10px;
 		margin-top: 50px;
-		color: white;
 	}
 
 	#ensino_medio{
-		position: relative;
 		display: inline-block;
-		width: 250px;
+		width: 275px;
 		margin-top: 50px;
 		padding: 10px;
 	}
 
 	#ensino_integrado{
 		display: inline-block;
-		width: 25%;
+		width: 275px;
 		padding: 10px;
 		margin-top: 50px;
 	}
 
 	#ensino_superior{
 		display: inline-block;
-		width: 25%;
+		width: 275px;
 		padding: 10px;
 		margin-top: 50px;
 	}
