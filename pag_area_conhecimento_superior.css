@@ -5,8 +5,8 @@
 
 	#fundo{
 		background-image: url(./Background/pag_superior.png);
-		width: 100vw;
-		height: 100vh;
+		width: 110vw;
+		height: 110vh;
 		background-size: cover;
 		background-attachment: fixed;
 	}

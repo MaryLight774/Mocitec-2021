@@ -1,15 +1,11 @@
 	body{
 		font-family: open sans;
 		margin: 0;
-
-	}
-
-	#fundo{
 		background-image: url(./Background/nivel_de_ensino.png);
-		width: 100vw;
-		height: 100vh;
+		width: 100%;
+		height: 100%;
 		background-size: cover;
-		background-attachment: fixed;
+		background-repeat: no-repeat;
 	}
 
 	#titulo{
@@ -61,7 +57,7 @@
 		width: 275px;
 	}
 
-	.button{
+	button{
 		position: absolute;
 		width: 227px;
 		height: auto;
@@ -71,10 +67,9 @@
 		font-weight: bold;
 		font-size: 48px;
 		line-height: 90px;
-		text-align: center;
-		margin-top: 50px;
 		color: #FFFFFF;
-		margin-left: 75px;
+		bottom: 75px;
+		right: 80%;
 	}
 
 	a{
@@ -84,4 +79,22 @@
 
 	a:hover{
 		color: lightblue;
+	}
+
+	@media only screen and (max-device-width: 900px) {
+		button{
+			position: absolute;
+			width: 450px;
+			font-size: 72px;
+			height: 150px;
+			background: #03A03E;
+			border-radius: 100px;
+			font-style: normal;
+			font-weight: bold;
+			line-height: 90px;
+			color: #FFFFFF;
+			bottom: 75px;
+			right: 40%;
+
+		}
 	}
