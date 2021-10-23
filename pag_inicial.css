@@ -30,17 +30,16 @@
 	}
 
 	button{
-		margin-left: 15%;
+		margin-left: 42%;
 		position: fixed;
 		bottom: 75px;
-		width: 227px;
-		height: auto;
+		width: 200px;
+		height: 70px;
 		background: #03A03E;
 		border-radius: 100px;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 48px;
-		line-height: 90px;
+		font-size: 36px;
 		text-align: center;
 		color: #FFFFFF;
 	}

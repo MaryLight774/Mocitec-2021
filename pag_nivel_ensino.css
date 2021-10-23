@@ -59,14 +59,13 @@
 
 	button{
 		position: absolute;
-		width: 227px;
-		height: auto;
+		width: 200px;
+		height: 70px;
 		background: #03A03E;
 		border-radius: 50px;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 48px;
-		line-height: 90px;
+		font-size: 36px;
 		color: #FFFFFF;
 		bottom: 75px;
 		right: 80%;
@@ -96,5 +95,22 @@
 			bottom: 75px;
 			right: 40%;
 
+		}
+	}
+
+	@media only screen and (max-device-width: 1050px) {
+		button{
+			position: absolute;
+			width: 400px;
+			font-size: 72px;
+			height: 150px;
+			background: #03A03E;
+			border-radius: 100px;
+			font-style: normal;
+			font-weight: bold;
+			line-height: 90px;
+			color: #FFFFFF;
+			bottom: 75px;
+			right: 50%;
 		}
 	}
