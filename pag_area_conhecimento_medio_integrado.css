@@ -1,12 +1,189 @@
 	body{
 		font-family: open sans;
 		margin: 0;
-	}
-
-	#fundo{
 		background-image: url(./Background/pag_medio_integrado.png);
-		width: 110vw;
-		height: 110vh;
+		width: 100%;
+		height: 110%;
 		background-size: cover;
 		background-attachment: fixed;
 	}
+
+	#titulo{
+      color:#fff;
+      text-align: center;
+      position: absolute;
+      width: 100%;
+      height: 110%;
+      font-size: 36px;
+	}
+
+	a{
+		text-decoration: none;
+		color: white;
+	}
+
+	a:hover{
+		color: lightblue;
+	}
+
+	.button{
+		position: absolute;
+		width: 227px;
+		height: auto;
+		background: #03A03E;
+		border-radius: 50px;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 48px;
+		line-height: 90px;
+		text-align: center;
+		color: #FFFFFF;
+		float: left;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+
+	#categoria{
+		width: 100%;
+		height: 30%;
+		font-size: 30px;
+		text-align: right;
+		font-weight: bold;
+	}
+
+	h1{
+		margin-bottom: 5px ;
+	}
+
+	#categoria img{
+		margin-right: 15px;
+	}
+
+	.matematica img{
+		height: 200px;
+	}
+
+	.humanas img{
+		width: 200px;
+	}
+
+	.engenharias img{
+		height: 200px;
+	}
+
+	.informatica img{
+		height: 200px;
+	}
+
+	.meio_ambiente img{
+		height: 200px;
+	}
+
+	.matematica{
+		margin-top: 5%;
+		margin-left: 3%;
+		margin-right: 3%;
+		float: left;
+		display: inline-block;
+		width: 200px;
+		font-size: 28px;
+	}
+
+	.humanas{
+		margin-top: 5%;
+		margin-left: 3%;
+		margin-right: 3%;
+		display: inline-block;
+		float: left;
+		width: 200px;
+		font-size: 28px;
+	}
+
+	.engenharias{
+		margin-top: 5%;
+		margin-left: 3%;
+		margin-right: 3%;
+		float: left;
+		display: inline-block;
+		width: 200px;
+		font-size: 28px;
+	}
+
+	.informatica{
+		margin-top: 5%;
+		margin-left: 3%;
+		margin-right: 3%;
+		float: left;
+		display: inline-block;
+		width: 200px;
+		font-size: 28px;
+	}
+
+	.meio_ambiente{
+		margin-top: 5%;
+		margin-left: 3%;
+		margin-right: 3%;
+		float: left;
+		display: inline-block;
+		width: 200px;
+		font-size: 28px;
+	}
+
+	@media only screen and (max-device-width: 900px) {
+		#titulo{
+	      color:#fff;
+	      text-align: center;
+	      position: absolute;
+	      width: 115%;
+	      height: 100%;
+	      font-size: 36px;
+		}
+
+		#categoria img{
+			width: 350px;
+		}
+
+		.matematica{
+			font-size: 48px;
+			width: 1000px;
+		}
+
+		.matematica img{
+			padding-left: 10%;
+			height: 500px;
+		}
+
+		.humanas{
+			font-size: 48px;
+			width: 1000px;
+		}
+
+		.humanas img{
+			width: 500px;
+		}
+
+		.engenharias{
+			font-size: 48px;
+			width: 1000px;
+		}
+
+		.engenharias img{
+			height: 500px;
+		}
+
+		.informatica{
+			font-size: 48px;
+			width: 1000px;
+		}
+		.informatica img{
+			height: 500px;
+		}
+
+		.meio_ambiente{
+			font-size: 48px;
+			width: 1000px;
+		}
+
+		.meio_ambiente img{
+			height: 500px;
+		}
