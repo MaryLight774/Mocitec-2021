@@ -3,13 +3,12 @@
 		margin: 0;
 		width: 100%;
 		height: 100%;
-		background-image: url(./Background/pag_inicial.png);
+		background-image: url(./Background/pag_inicial_2.jfif);
 		background-size: cover;
 	}
 
 	#titulo{
 		
-      background: linear-gradient(180deg, rgba(255, 92, 0, 0.73) 0%, rgba(255, 92, 0, 0) 51.04%);
       color:#fff;
       text-align: center;
       position: absolute;
