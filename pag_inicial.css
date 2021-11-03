@@ -89,32 +89,18 @@
 	}
 
 	@media only screen and (max-device-width: 900px) {
-		button{
-			width: 500px;
-			font-size: 100px;
+		#button{
+			width: 700px;
+			font-size: 80px;
 			height: 200px;
-			margin-bottom: 50%;
-			margin-left: 25%;
+			margin-bottom: 20px;
+			float: left;
+			margin-left: 150px;
 		}
 
-		#logo{
-			margin-top: 25%;
-		}
-
-		#logo img{
-			width: 100%;
-			margin-top: 0;
-		}
-
-	}
-
-	@media only screen and (max-device-width: 1050px) {
-		button{
-			width: 500px;
-			font-size: 100px;
-			height: 200px;
-			margin-bottom: 50%;
-			margin-left: 25%;
+		p{
+			width: 700;
+			margin-top: 100;
 		}
 
 		#logo{
@@ -127,7 +113,45 @@
 		}
 
 		img.parceiros{
+			padding-bottom: 20px;
+		}
+
+	}
+
+	@media only screen and (max-device-width: 1050px) {
+		#button{
+			width: 700px;
+			font-size: 80px;
+			height: 200px;
+			margin-bottom: 20px;
+			float: left;
+			margin-left: 150px;
+		}
+
+		#cronograma{
+			width: 700px;
+			font-size: 80px;
+			height: 150px;
+			float: left;
+			margin-left: 150px;
+		}
+
+		#logo img{
+			width: 70%;
+			margin-top: 0;
+
+		}
+
+		#logo{
+			margin-top: 0;
+		}
+
+		img.parceiros{
 			width: 950px;
+		}
+
+		#titulo{
+			margin-top: 20px;
 		}
 
 		footer{
