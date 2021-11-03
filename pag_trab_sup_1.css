@@ -1,6 +1,6 @@
 body {
 	background: #F2F2F2;
-	font-family: open sans;
+	font-family: arial;
 	margin: 0;
 	padding: 0;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 #cabecalho{
-	padding-top: 20px;
+	padding-top: 40px;
 	margin-right: 20px;
 }
 
@@ -86,7 +86,7 @@ a:hover{
 @media only screen and (max-device-width: 900px){
 	#cabecalho{
 		font-size: 35px;
-		padding-top: 15px;
+		padding-top: 30px;
 	}
 
 	#trabalhos{
