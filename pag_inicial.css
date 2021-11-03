@@ -143,11 +143,12 @@
 		}
 
 		#logo{
-			margin-top: 0;
+			margin-top: 10px;
 		}
 
 		img.parceiros{
 			width: 950px;
+			margin-bottom: 10px;
 		}
 
 		#titulo{
