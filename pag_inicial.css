@@ -39,7 +39,6 @@
 		font-size: 36px;
 		text-align: center;
 		color: #FFFFFF;
-		align-content: center;
 		float: left;
 		padding-top: 30px;
 		margin-left: 100px;
@@ -55,7 +54,6 @@
 		font-size: 36px;
 		text-align: center;
 		color: #FFFFFF;
-		align-content: center;
 		float: right;
 		padding-top: 30px;
 		margin-right: 100px;
@@ -88,7 +86,7 @@
 		text-decoration: none;
 	}
 
-	@media only screen and (max-device-width: 900px) {
+	@media only screen and (max-device-width: 414px) {
 		#button{
 			width: 700px;
 			font-size: 80px;
@@ -103,22 +101,28 @@
 			margin-top: 100;
 		}
 
-		#logo{
-			margin-top: 25%;
-		}
-
 		#logo img{
 			width: 100%;
 			margin-top: 0;
+			margin-bottom: 100px;
+		}
+
+		#cronograma{
+			width: 700px;
+			font-size: 80px;
+			height: 150px;
+			float: left;
+			margin-left: 150px;
 		}
 
 		img.parceiros{
+			width: 90%;
 			padding-bottom: 20px;
 		}
 
 	}
 
-	@media only screen and (max-device-width: 1050px) {
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 		#button{
 			width: 700px;
 			font-size: 80px;
