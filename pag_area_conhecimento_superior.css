@@ -1,4 +1,233 @@
-	body{
+body{
+		font-family: arial;
+		margin: 0;
+		background-image: url(./Background/pag_fundamental.png);
+		width: 100%;
+		height: 110%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-color: green;
+	}
+
+	#titulo{
+      color:#fff;
+      text-align: center;
+      position: absolute;
+      width: 100%;
+      height: 50px;
+      font-size: 28px;
+	 
+	}
+
+	h1{
+		margin-bottom: 0px;
+		margin-top: 15px;
+	}
+
+	.logo img{
+		width: 20%;
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	#ensino_fundamental{
+		display: inline-block;
+		width: 450px;
+		padding: 10px;
+		margin-top: 50px;
+	}
+
+	#ensino_medio{
+		display: inline-block;
+		width: 450px;
+		margin-top: 50px;
+		padding: 10px;
+	}
+
+
+	img{
+		width: 250px;
+	}
+
+	a{
+		text-decoration: none;
+		color: white;
+	}
+
+	a:hover{
+		color: lightpink;
+	}
+
+	img.parceiros{
+		opacity: 1;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 500px;
+		bottom: 0;
+	}
+
+	#button{
+		width: 200px;
+		height: 60px;
+		background: #03A03E;
+		border-radius: 100px;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		text-align: center;
+		color: #FFFFFF;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		padding-top: 20px;
+		margin-top: 10px;
+	}
+
+	@media only screen and (max-device-width: 414px) {
+		body{
+			width: 100%;
+			height: 100%;
+		}
+
+		#titulo{
+	      color:#fff;
+	      text-align: center;
+	      position: absolute;
+	      width: 100vw;
+	      height: 100px;
+	      font-size: 36px;
+		}
+
+		#ensino_fundamental{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 450px;
+			padding: 10px;
+			margin-top: 50px;
+		}
+
+		#ensino_medio{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 450px;
+			margin-top: 50px;
+			padding: 10px;
+		}
+
+		.logo img{
+			width: 90%;
+			height: auto;
+			filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+		}		
+
+		#button{
+			width: 200px;
+			height: 60px;
+			background: #03A03E;
+			border-radius: 100px;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 36px;
+			text-align: center;
+			color: #FFFFFF;
+			padding-top: 20px;
+		}
+
+		img.parceiros{
+			opacity: 1;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 900px;
+			margin-bottom: 50px;
+			margin-top: 50px;
+		}	
+	}
+
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+		#titulo{
+	      color:#fff;
+	      text-align: center;
+	      position: absolute;
+	      width: 100vw;
+	      height: 100px;
+	      font-size: 25px;
+		}
+
+		.logo img{
+			width: 50%;
+			height: auto;
+			filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+		}		
+
+		#button{
+			width: 200px;
+			height: 60px;
+			background: #03A03E;
+			border-radius: 100px;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 36px;
+			text-align: center;
+			color: #FFFFFF;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+			padding-top: 10px;
+		}
+
+		img.parceiros{
+			opacity: 1;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 900px;
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+
+		#ensino_fundamental{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 400px;
+			height: auto;
+			padding: 10px;
+			margin-top: 50px;
+			align-items: center;
+		}
+
+		#ensino_medio{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 400px;
+			margin-top: 50px;
+			padding: 10px;
+		}
+
+		#ensino_fundamental img{
+			width: 300px;
+		}
+
+		#ensino_medio img{
+			width: 300px;
+		}
+	}
+
+/*	body{
 		font-family: arial;
 		margin: 0;
 		background-image: url(./Background/pag_superior.png);
@@ -120,4 +349,4 @@
 		.humanas img{
 			width: 500px;
 		}
-	}
+	}*/
