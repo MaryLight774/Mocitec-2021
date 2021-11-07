@@ -1,0 +1,300 @@
+	body {
+		background: #F2F2F2;
+		font-family: arial;
+		margin: 0;
+		padding: 0;
+	}
+
+	#titulo{
+		border-bottom-color: #8959C3;
+		border-bottom-style: solid;
+		border-bottom-width: 18px;
+		background: #FD75BE;
+		margin: 0;
+		color: white;
+		width: 100%;
+		height: 250px;
+		text-align: right;
+		font-size: 48px;
+		font-weight: bold;
+	}
+
+	.logo{
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		padding-top: 60px;
+	}
+
+	video{
+		width: 900px;
+	}
+
+
+	#video{
+		width: 900px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#resumo{
+		text-align: center;
+		width: 1100px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 24px;
+	}
+
+	h1{
+		font-weight: bold;
+	}
+
+	img{
+		width: 600px;
+	}
+
+	#icone img{
+		margin-top: 10px;
+		margin-left: 450px;
+		margin-right: auto;
+	}
+
+	.trabalhos{
+		text-align: center;
+		display: inline-block;
+		background: #A1A1A1;
+		border-radius: 100px;
+		height: 220px;
+		width: 95%;
+		color: white; 
+		font-size: 24px;
+		margin: 10px;
+		border-style: solid;
+		border-right-width: 50px;
+		border-color: #A1A1A1;
+	}
+
+	button{
+			width: 200px;
+			height: 80px;
+			background: #03A03E;
+			border-radius: 100px;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 36px;
+			text-align: center;
+			color: #FFFFFF;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+
+	a{
+		color: white;
+		text-decoration: none;
+	}
+
+	a:hover{
+		color: lightblue;
+	}
+
+	img.parceiros{
+		width: 900px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto		
+	}
+
+
+	footer{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 900px;
+			bottom: 0;
+	}
+
+	.nomes{
+		width: 400px;
+		margin-left: 30px;
+		font-size: 20px;
+		text-align: center;
+		display: inline-block;
+	}
+
+	#informacoes{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	#palavra-chave{
+		text-align: center;
+		width: 90%;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 24px;
+	}
+
+
+@media only screen and (max-device-width: 414px){
+	#resumo{
+		width: 900px;
+	}
+
+	.trabalhos{
+		border-radius: 150px;
+		height: 500px;
+		width: 90%;
+		font-size: 48px;
+		border-style: solid;
+		border-top-width: 50px;
+		border-color: #A1A1A1;
+		text-align: center;
+		border-right-width: 0;
+		margin-left: 6%;
+	}
+
+	#icone{
+		width: 900px;
+		margin-right: auto;
+		margin-left: auto;
+		display: block; 
+	}
+
+	#icone img{
+		margin-right: auto;
+		margin-left: auto;
+		display: block; 
+	}
+
+	footer{
+		display: block;
+		margin-left: 5%;
+		margin-right: auto;
+		width: 900px;
+		bottom: 0;
+	}
+
+	img.parceiros{
+		width: 900px;
+	}
+
+	.nomes{
+		font-size: 20px;
+	}
+
+	video{
+		margin-left: 15px;
+	}
+
+	#resumo{
+		margin-right: 15;
+	}
+}
+
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+		#titulo{
+			font-size: 36px;
+			width: 113%;
+		}
+
+		.trabalhos{
+			width: 105%;
+			margin-left: 10px;
+			margin-right: auto;
+			display: block;
+		}
+
+		.nomes{
+			width: 300px;
+			font-size: 20px;
+		}
+
+		#informacoes{
+			width: 113%;
+			margin-left: 5%;
+			margin-right: auto;
+			display: block;
+		}
+
+		#icone{
+			width: 113%px;
+			margin-right: auto;
+			margin-left: 15%;
+			display: block; 
+		}
+
+		#icone img{
+			margin-right: auto;
+			margin-left: auto;
+			display: block; 
+		}
+
+		#resumo{
+			width: 900px;
+			margin-left: 10%;
+		}
+
+		video{
+			margin-left: 5%;
+		}
+
+		img.parceiros{
+			width: 900px;
+			margin-left: 5%;
+		}
+
+		button{
+			margin-left: 45%;
+			margin-right: auto;
+			display: block;
+		}
+
+		#palavra-chave{
+			text-align: center;
+			width: 113%;
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+			font-size: 24px;
+		}
+	} 
+
+	@media only screen and (min-device-width: 1024px) and (max-device-width: 1025px){
+		#titulo{
+			width: 108%;
+		}
+
+		.trabalhos{
+			width: 1000px;
+			display: block;
+			margin-left: 25px;
+			margin-right: auto;
+		}
+
+		#icone{
+			width: 1100px;
+			margin-right: auto;
+			margin-left: auto;
+			display: block; 
+		}
+
+		#icone img{
+			margin-right: auto;
+			margin-left: auto;
+			display: block; 
+		}
+
+		#resumo{
+			width: 90%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
