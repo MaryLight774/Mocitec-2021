@@ -3,7 +3,7 @@
 		margin: 0;
 		background-image: url(./Background/pag_medio_integrado.png);
 		width: 100%;
-		height: 110%;
+		height: 160%;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-color: green;
@@ -18,6 +18,23 @@
       font-size: 28px;
 	 
 	}
+
+	#brain{
+		width: 400px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		font-size: 24px;
+		color: white;
+		margin-bottom: 20px;
+
+	}
+
+	#brain img{
+		margin-bottom: 5px;
+		width: 400px;
+	}	
 
 	h1{
 		margin-bottom: 0px;
@@ -89,7 +106,7 @@
 	@media only screen and (max-device-width: 414px) {
 		body{
 			width: 100%;
-			height: 100%;
+			height: 125%;
 		}
 
 		#titulo{
