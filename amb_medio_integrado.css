@@ -20,7 +20,7 @@ body {
 }
 
 #cabecalho{
-	padding-top: 80px;
+	padding-top: 90px;
 	margin-right: 20px;
 }
 
@@ -32,9 +32,33 @@ img{
 }
 
 #icone img{
+	
+	width: 300px;
+	margin-left: 0;
+	margin-right: 0;
 	margin-top: 10px;
-	margin-left: 500px;
+	margin-bottom: 10px;
+	padding-right: 100px;
+}
+
+#icone {
+	width: 300px;
+	display: block;
+	margin-left: auto;
 	margin-right: auto;
+}
+
+#categoria{
+	width: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-weight: bold;
+	color: #00B050;
+	font-size: 40px;
+	margin-bottom: 50px;
+
 }
 
 .trabalhos{
@@ -50,6 +74,7 @@ img{
 	border-style: solid;
 	border-right-width: 50px;
 	border-color: #A1A1A1;
+	margin-left: 15px;
 }
 
 button{
@@ -76,7 +101,7 @@ a{
 }
 
 a:hover{
-	color: lightblue;
+	color: lightgreen;
 }
 
 img.parceiros{
@@ -95,10 +120,14 @@ footer{
 		bottom: 0;
 	}
 
-@media only screen and (max-device-width: 900px){
+@media only screen and (max-device-width: 414px){
+	#titulo{
+		width: 106%;
+	}
+
 	#cabecalho{
 		font-size: 35px;
-		padding-top: 60px;
+		padding-top: 100px;
 	}
 
 	.trabalhos{
@@ -111,11 +140,21 @@ footer{
 		border-color: #A1A1A1;
 		text-align: center;
 		border-right-width: 0;
+		margin-left: 4%;
 	}
 
-	#icone img{
+	#icone {
+		width: 200px;
+		display: block;
+		margin-left: ;
 		margin-right: auto;
-		margin-left: 290px;
+	}
+
+	#categoria{
+		width: 500px;
+		display: inline-block;
+		margin-left: 300px;
+		margin-right: auto;
 	}
 
 	footer{
@@ -134,16 +173,28 @@ footer{
 	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
 		#titulo{
 			font-size: 36px;
-			width: 100%;
+			width: 103%;
 		}
+
 	} 
 
 	@media only screen and (min-device-width: 1024px) and (max-device-width: 1025px){
 		#titulo{
-			width: 103%;
+			width: 104%;
 		}
 
-		#icone img{
-			margin-left: 300px;
-		}
+
+		#icone {
+		width: 200px;
+		display: block;
+		margin-left: ;
+		margin-right: auto;
+	}
+
+	#categoria{
+		width: 500px;
+		display: inline-block;
+		margin-left: 300px;
+		margin-right: auto;
+	}
 	}

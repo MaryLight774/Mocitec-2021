@@ -118,7 +118,7 @@ footer{
 		bottom: 0;
 	}
 
-@media only screen and (max-device-width: 900px){
+@media only screen and (max-device-width: 414px){
 	#cabecalho{
 		font-size: 35px;
 		padding-top: 30px;
@@ -138,7 +138,6 @@ footer{
 
 	#icone img{
 		margin-right: auto;
-		margin-left: 290px;
 	}
 
 	footer{
