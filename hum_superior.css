@@ -20,7 +20,7 @@ body {
 }
 
 #cabecalho{
-	padding-top: 40px;
+	padding-top: 80px;
 	margin-right: 20px;
 }
 
@@ -32,9 +32,32 @@ img{
 }
 
 #icone img{
+	
+	width: 300px;
+	margin-left: 0;
+	margin-right: 0;
 	margin-top: 10px;
-	margin-left: 500px;
+	margin-bottom: 10px;
+}
+
+#icone {
+	width: 300px;
+	display: block;
+	margin-left: auto;
 	margin-right: auto;
+}
+
+#categoria{
+	width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-weight: bold;
+	color: #8959C3;
+	font-size: 40px;
+	margin-bottom: 50px;
+
 }
 
 .trabalhos{
@@ -44,7 +67,7 @@ img{
 	border-radius: 100px;
 	height: 220px;
 	width: 95%;
-	color: white; 
+	color: white;
 	font-size: 24px;
 	margin: 10px;
 	border-style: solid;
@@ -76,7 +99,7 @@ a{
 }
 
 a:hover{
-	color: lightpink;
+	color: lightblue;
 }
 
 img.parceiros{
@@ -95,7 +118,7 @@ footer{
 		bottom: 0;
 	}
 
-@media only screen and (max-device-width: 900px){
+@media only screen and (max-device-width: 414px){
 	#cabecalho{
 		font-size: 35px;
 		padding-top: 30px;
@@ -115,7 +138,6 @@ footer{
 
 	#icone img{
 		margin-right: auto;
-		margin-left: 290px;
 	}
 
 	footer{
@@ -134,16 +156,12 @@ footer{
 	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
 		#titulo{
 			font-size: 36px;
-			width: 100%;
+			width: 103%;
 		}
 	} 
 
 	@media only screen and (min-device-width: 1024px) and (max-device-width: 1025px){
 		#titulo{
 			width: 103%;
-		}
-
-		#icone img{
-			margin-left: 300px;
 		}
 	}
