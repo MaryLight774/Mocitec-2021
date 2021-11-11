@@ -14,16 +14,44 @@
 		color: white;
 		width: 100%;
 		height: 250px;
-		text-align: right;
+		text-align: center;
 		font-size: 48px;
 		font-weight: bold;
+	}
+
+	#icone img{
+	
+		width: 300px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#icone {
+		width: 300px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#categoria{
+		width: 800px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		font-weight: bold;
+		color: #8959C3;
+		font-size: 30px;
+		margin-bottom: 50px;
+
 	}
 
 	.logo{
 		margin-left: auto;
 		margin-right: auto;
 		width: 600px;
-		padding-top: 60px;
+		padding-top: 50px;
 	}
 
 	video{
@@ -55,11 +83,6 @@
 		width: 600px;
 	}
 
-	#icone img{
-		margin-top: 10px;
-		margin-left: 450px;
-		margin-right: auto;
-	}
 
 	.trabalhos{
 		text-align: center;
@@ -89,8 +112,10 @@
 			margin-left: auto;
 			margin-right: auto;
 			display: block;
-			margin-top: 20px;
 			margin-bottom: 10px;
+			float: left;
+			margin-left: 35px;
+			margin-top: 15px;
 		}
 
 	a{
@@ -99,7 +124,7 @@
 	}
 
 	a:hover{
-		color: lightblue;
+		color: lightpink;
 	}
 
 	img.parceiros{
@@ -119,8 +144,9 @@
 	}
 
 	.nomes{
-		width: 400px;
-		margin-left: 30px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
 		font-size: 20px;
 		text-align: center;
 		display: inline-block;
@@ -133,6 +159,19 @@
 		display: block;
 	}
 
+	#foto{
+		width: 900px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#foto img{
+		width: 900px;
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+
 	#palavra-chave{
 		text-align: center;
 		width: 90%;
@@ -142,8 +181,29 @@
 		font-size: 24px;
 	}
 
+	#artigo img{
+		width: 300px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#artigo{
+		width: 300px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+		font-size: 25px;
+		text-align: center;
+		margin-bottom: 50px;
+	}
 
 @media only screen and (max-device-width: 414px){
+	#titulo img{
+		padding-top: 10px;
+	}
+
 	#resumo{
 		width: 900px;
 	}
@@ -187,7 +247,8 @@
 	}
 
 	.nomes{
-		font-size: 20px;
+		width: 100%;
+		font-size: 22px;
 	}
 
 	video{
@@ -195,39 +256,36 @@
 	}
 
 	#resumo{
-		margin-right: 15;
+		margin-right: 30px;
+	}
+
+	button{
+		width: 150px;
+		float: left	;
+		font-size: 24;
+	}
+
+	.logo{
+		padding-top: 10px;
 	}
 }
 
 	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
 		#titulo{
-			font-size: 36px;
-			width: 113%;
+			width: 120%;
 		}
 
 		.trabalhos{
-			width: 105%;
-			margin-left: 10px;
-			margin-right: auto;
+			width: 1100px;
 			display: block;
-		}
-
-		.nomes{
-			width: 300px;
-			font-size: 20px;
-		}
-
-		#informacoes{
-			width: 113%;
-			margin-left: 5%;
+			margin-left: 25px;
 			margin-right: auto;
-			display: block;
 		}
 
 		#icone{
-			width: 113%px;
+			width: 10%;
 			margin-right: auto;
-			margin-left: 15%;
+			margin-left: auto;
 			display: block; 
 		}
 
@@ -237,24 +295,29 @@
 			display: block; 
 		}
 
-		#resumo{
-			width: 900px;
+		#categoria{
+			width: 100%;
 			margin-left: 10%;
 		}
 
-		video{
-			margin-left: 5%;
+		#resumo{
+			width: 900px;
+			margin-left: 15%;
+			margin-right: auto;
 		}
 
-		img.parceiros{
-			width: 900px;
-			margin-left: 5%;
+		video{
+			margin-left: 10%;
+		}
+
+		#artigo{
+			width: 500px;
+			margin-left: 35%;
 		}
 
 		button{
-			margin-left: 45%;
-			margin-right: auto;
-			display: block;
+			margin-left: 15px;
+			float: left;
 		}
 
 		#palavra-chave{
@@ -265,22 +328,27 @@
 			margin-left: auto;
 			font-size: 24px;
 		}
+
+		.nomes{
+			width: 100%;
+			margin-left: 10%;
+		}
 	} 
 
 	@media only screen and (min-device-width: 1024px) and (max-device-width: 1025px){
 		#titulo{
-			width: 108%;
+			width: 119%;
 		}
 
 		.trabalhos{
-			width: 1000px;
+			width: 1100px;
 			display: block;
 			margin-left: 25px;
 			margin-right: auto;
 		}
 
 		#icone{
-			width: 1100px;
+			width: 10%;
 			margin-right: auto;
 			margin-left: auto;
 			display: block; 
@@ -292,9 +360,28 @@
 			display: block; 
 		}
 
+		#categoria{
+			width: 100%;
+			margin-left: 10%;
+		}
+
 		#resumo{
-			width: 90%;
-			margin-left: auto;
+			width: 900px;
+			margin-left: 15%;
 			margin-right: auto;
+		}
+
+		video{
+			margin-left: 10%;
+		}
+
+		#artigo{
+			width: 500px;
+			margin-left: 35%;
+		}
+
+		button{
+			margin-left: 15px;
+			float: left;
 		}
 	}
