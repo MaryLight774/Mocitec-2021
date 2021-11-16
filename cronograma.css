@@ -21,9 +21,10 @@ table{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 80px;
 }
 
-img{
+#logo img{
 	width: 500px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -62,4 +63,23 @@ img{
 
 a{
 	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: blue;
+}
+
+#palestra_1{
+	color: white;
+	width: 900px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	font-size: 20px;
+}
+
+#palestra_1 img{
+	width: 300px;
 }
